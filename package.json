@@ -1,13 +1,41 @@
 {
-  "name": "ez-fv",
-  "main": "./lib/ez-fv",
-  "version": "0.3.0",
-  "description": "FocusVison Atom Shortcuts",
-  "keywords": [
-    "Focus",
-    "Vision",
-    "Shortcuts"
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+        "spec": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\epena\\AppData\\Local\\Temp\\apm-install-dir-116115-12808-1jx17ii"
+    ]
   ],
+  "_from": "..\\d-116115-12808-uvg6et\\package.tgz",
+  "_id": "ez-fv@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ez-fv",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+    "spec": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116115-12808-uvg6et\\package.tgz",
+  "_shasum": "93defa40b04c037566c4877aa3a5b2fea0b3cb7d",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\epena\\AppData\\Local\\Temp\\d-116115-12808-uvg6et\\package.tgz",
+  "_where": "C:\\Users\\epena\\AppData\\Local\\Temp\\apm-install-dir-116115-12808-1jx17ii",
   "activationCommands": {
     "atom-workspace": [
       "ez-fv:insert",
@@ -25,10 +53,30 @@
       "ez-fv:textarea"
     ]
   },
-  "repository": "https://github.com/matt92martin/ez-fv",
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt92martin/ez-fv/issues"
+  },
+  "dependencies": {},
+  "description": "FocusVison Atom Shortcuts",
+  "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/matt92martin/ez-fv#readme",
+  "keywords": [
+    "Focus",
+    "Vision",
+    "Shortcuts"
+  ],
+  "license": "MIT",
+  "main": "./lib/ez-fv",
+  "name": "ez-fv",
+  "optionalDependencies": {},
+  "readme": "# Ez-Fv package\n\nFocusVision Shortcuts\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt92martin/ez-fv.git"
+  },
+  "version": "0.3.0"
 }

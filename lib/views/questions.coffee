@@ -12,8 +12,8 @@ class Questions
     getItems:->
         @input = @input.trim()
 
-        label = @input.split(/^([a-zA-Z0-9-_]+)+(\.|:|\)|\s)/)[1]
-        input = @input.split(/^([a-zA-Z0-9-_]+)+(\.|:|\)|\s)/).pop()
+        label = @input.split(/^\[?([a-zA-Z0-9-_]+)+\]?(\.|:|\)|\s)/)[1]
+        input = @input.split(/^\[?([a-zA-Z0-9-_]+)+\]?(\.|:|\)|\s)/).pop()
 
         input_array = []
         if input.indexOf('<row') != -1 then input_array.push(input.indexOf('<row'))
@@ -42,10 +42,10 @@ class Questions
 
     makeQuestion: (label, title, input, type, extra, comment="") ->
         question = """
-                <#{type} label="#{label}"#{extra}>
-                    <title>#{title}</title>
-                    #{input}
-                </#{type}>
+<#{type} label="#{label}"#{extra}>
+  <title>#{title}</title>
+  #{input}
+</#{type}>
                 """
         return question
 
